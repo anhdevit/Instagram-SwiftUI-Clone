@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCDDEFE5269055EA009E08FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDDEFE4269055EA009E08FF /* AppDelegate.swift */; };
+		CCDDEFE7269055EA009E08FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDDEFE6269055EA009E08FF /* SceneDelegate.swift */; };
+		CCDDEFE9269055EA009E08FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDDEFE8269055EA009E08FF /* ContentView.swift */; };
+		CCDDEFEC269055EA009E08FF /* InstargramClone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CCDDEFEA269055EA009E08FF /* InstargramClone.xcdatamodeld */; };
+		CCDDEFEE269055EE009E08FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCDDEFED269055EE009E08FF /* Assets.xcassets */; };
+		CCDDEFF1269055EE009E08FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCDDEFF0269055EE009E08FF /* Preview Assets.xcassets */; };
+		CCDDEFF4269055EE009E08FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCDDEFF2269055EE009E08FF /* LaunchScreen.storyboard */; };
+		CCDDEFFF269055EE009E08FF /* InstargramCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDDEFFE269055EE009E08FF /* InstargramCloneTests.swift */; };
+		CCDDF00A269055EE009E08FF /* InstargramCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDDF009269055EE009E08FF /* InstargramCloneUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCDDEFFB269055EE009E08FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCDDEFD9269055EA009E08FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCDDEFE0269055EA009E08FF;
+			remoteInfo = InstargramClone;
+		};
+		CCDDF006269055EE009E08FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCDDEFD9269055EA009E08FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCDDEFE0269055EA009E08FF;
+			remoteInfo = InstargramClone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCDDEFE1269055EA009E08FF /* InstargramClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstargramClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCDDEFE4269055EA009E08FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCDDEFE6269055EA009E08FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CCDDEFE8269055EA009E08FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CCDDEFEB269055EA009E08FF /* InstargramClone.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = InstargramClone.xcdatamodel; sourceTree = "<group>"; };
+		CCDDEFED269055EE009E08FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCDDEFF0269055EE009E08FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CCDDEFF3269055EE009E08FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCDDEFF5269055EE009E08FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCDDEFFA269055EE009E08FF /* InstargramCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstargramCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCDDEFFE269055EE009E08FF /* InstargramCloneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstargramCloneTests.swift; sourceTree = "<group>"; };
+		CCDDF000269055EE009E08FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCDDF005269055EE009E08FF /* InstargramCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstargramCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCDDF009269055EE009E08FF /* InstargramCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstargramCloneUITests.swift; sourceTree = "<group>"; };
+		CCDDF00B269055EE009E08FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCDDEFDE269055EA009E08FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCDDEFF7269055EE009E08FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCDDF002269055EE009E08FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCDDEFD8269055EA009E08FF = {
+			isa = PBXGroup;
+			children = (
+				CCDDEFE3269055EA009E08FF /* InstargramClone */,
+				CCDDEFFD269055EE009E08FF /* InstargramCloneTests */,
+				CCDDF008269055EE009E08FF /* InstargramCloneUITests */,
+				CCDDEFE2269055EA009E08FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCDDEFE2269055EA009E08FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCDDEFE1269055EA009E08FF /* InstargramClone.app */,
+				CCDDEFFA269055EE009E08FF /* InstargramCloneTests.xctest */,
+				CCDDF005269055EE009E08FF /* InstargramCloneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCDDEFE3269055EA009E08FF /* InstargramClone */ = {
+			isa = PBXGroup;
+			children = (
+				CCDDEFE4269055EA009E08FF /* AppDelegate.swift */,
+				CCDDEFE6269055EA009E08FF /* SceneDelegate.swift */,
+				CCDDEFE8269055EA009E08FF /* ContentView.swift */,
+				CCDDEFED269055EE009E08FF /* Assets.xcassets */,
+				CCDDEFF2269055EE009E08FF /* LaunchScreen.storyboard */,
+				CCDDEFF5269055EE009E08FF /* Info.plist */,
+				CCDDEFEA269055EA009E08FF /* InstargramClone.xcdatamodeld */,
+				CCDDEFEF269055EE009E08FF /* Preview Content */,
+			);
+			path = InstargramClone;
+			sourceTree = "<group>";
+		};
+		CCDDEFEF269055EE009E08FF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CCDDEFF0269055EE009E08FF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CCDDEFFD269055EE009E08FF /* InstargramCloneTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCDDEFFE269055EE009E08FF /* InstargramCloneTests.swift */,
+				CCDDF000269055EE009E08FF /* Info.plist */,
+			);
+			path = InstargramCloneTests;
+			sourceTree = "<group>";
+		};
+		CCDDF008269055EE009E08FF /* InstargramCloneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCDDF009269055EE009E08FF /* InstargramCloneUITests.swift */,
+				CCDDF00B269055EE009E08FF /* Info.plist */,
+			);
+			path = InstargramCloneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCDDEFE0269055EA009E08FF /* InstargramClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCDDF00E269055EE009E08FF /* Build configuration list for PBXNativeTarget "InstargramClone" */;
+			buildPhases = (
+				CCDDEFDD269055EA009E08FF /* Sources */,
+				CCDDEFDE269055EA009E08FF /* Frameworks */,
+				CCDDEFDF269055EA009E08FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstargramClone;
+			productName = InstargramClone;
+			productReference = CCDDEFE1269055EA009E08FF /* InstargramClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCDDEFF9269055EE009E08FF /* InstargramCloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCDDF011269055EE009E08FF /* Build configuration list for PBXNativeTarget "InstargramCloneTests" */;
+			buildPhases = (
+				CCDDEFF6269055EE009E08FF /* Sources */,
+				CCDDEFF7269055EE009E08FF /* Frameworks */,
+				CCDDEFF8269055EE009E08FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCDDEFFC269055EE009E08FF /* PBXTargetDependency */,
+			);
+			name = InstargramCloneTests;
+			productName = InstargramCloneTests;
+			productReference = CCDDEFFA269055EE009E08FF /* InstargramCloneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCDDF004269055EE009E08FF /* InstargramCloneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCDDF014269055EE009E08FF /* Build configuration list for PBXNativeTarget "InstargramCloneUITests" */;
+			buildPhases = (
+				CCDDF001269055EE009E08FF /* Sources */,
+				CCDDF002269055EE009E08FF /* Frameworks */,
+				CCDDF003269055EE009E08FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCDDF007269055EE009E08FF /* PBXTargetDependency */,
+			);
+			name = InstargramCloneUITests;
+			productName = InstargramCloneUITests;
+			productReference = CCDDF005269055EE009E08FF /* InstargramCloneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCDDEFD9269055EA009E08FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					CCDDEFE0269055EA009E08FF = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					CCDDEFF9269055EE009E08FF = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = CCDDEFE0269055EA009E08FF;
+					};
+					CCDDF004269055EE009E08FF = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = CCDDEFE0269055EA009E08FF;
+					};
+				};
+			};
+			buildConfigurationList = CCDDEFDC269055EA009E08FF /* Build configuration list for PBXProject "InstargramClone" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCDDEFD8269055EA009E08FF;
+			productRefGroup = CCDDEFE2269055EA009E08FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCDDEFE0269055EA009E08FF /* InstargramClone */,
+				CCDDEFF9269055EE009E08FF /* InstargramCloneTests */,
+				CCDDF004269055EE009E08FF /* InstargramCloneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCDDEFDF269055EA009E08FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCDDEFF4269055EE009E08FF /* LaunchScreen.storyboard in Resources */,
+				CCDDEFF1269055EE009E08FF /* Preview Assets.xcassets in Resources */,
+				CCDDEFEE269055EE009E08FF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCDDEFF8269055EE009E08FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCDDF003269055EE009E08FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCDDEFDD269055EA009E08FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCDDEFE5269055EA009E08FF /* AppDelegate.swift in Sources */,
+				CCDDEFEC269055EA009E08FF /* InstargramClone.xcdatamodeld in Sources */,
+				CCDDEFE7269055EA009E08FF /* SceneDelegate.swift in Sources */,
+				CCDDEFE9269055EA009E08FF /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCDDEFF6269055EE009E08FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCDDEFFF269055EE009E08FF /* InstargramCloneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCDDF001269055EE009E08FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCDDF00A269055EE009E08FF /* InstargramCloneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCDDEFFC269055EE009E08FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCDDEFE0269055EA009E08FF /* InstargramClone */;
+			targetProxy = CCDDEFFB269055EE009E08FF /* PBXContainerItemProxy */;
+		};
+		CCDDF007269055EE009E08FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCDDEFE0269055EA009E08FF /* InstargramClone */;
+			targetProxy = CCDDF006269055EE009E08FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCDDEFF2269055EE009E08FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCDDEFF3269055EE009E08FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCDDF00C269055EE009E08FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCDDF00D269055EE009E08FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCDDF00F269055EE009E08FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"InstargramClone/Preview Content\"";
+				DEVELOPMENT_TEAM = 93A2M229QB;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = InstargramClone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = anhdevit.InstargramClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCDDF010269055EE009E08FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"InstargramClone/Preview Content\"";
+				DEVELOPMENT_TEAM = 93A2M229QB;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = InstargramClone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = anhdevit.InstargramClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CCDDF012269055EE009E08FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93A2M229QB;
+				INFOPLIST_FILE = InstargramCloneTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = anhdevit.InstargramCloneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstargramClone.app/InstargramClone";
+			};
+			name = Debug;
+		};
+		CCDDF013269055EE009E08FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93A2M229QB;
+				INFOPLIST_FILE = InstargramCloneTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = anhdevit.InstargramCloneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstargramClone.app/InstargramClone";
+			};
+			name = Release;
+		};
+		CCDDF015269055EE009E08FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93A2M229QB;
+				INFOPLIST_FILE = InstargramCloneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = anhdevit.InstargramCloneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InstargramClone;
+			};
+			name = Debug;
+		};
+		CCDDF016269055EE009E08FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93A2M229QB;
+				INFOPLIST_FILE = InstargramCloneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = anhdevit.InstargramCloneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InstargramClone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCDDEFDC269055EA009E08FF /* Build configuration list for PBXProject "InstargramClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCDDF00C269055EE009E08FF /* Debug */,
+				CCDDF00D269055EE009E08FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCDDF00E269055EE009E08FF /* Build configuration list for PBXNativeTarget "InstargramClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCDDF00F269055EE009E08FF /* Debug */,
+				CCDDF010269055EE009E08FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCDDF011269055EE009E08FF /* Build configuration list for PBXNativeTarget "InstargramCloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCDDF012269055EE009E08FF /* Debug */,
+				CCDDF013269055EE009E08FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCDDF014269055EE009E08FF /* Build configuration list for PBXNativeTarget "InstargramCloneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCDDF015269055EE009E08FF /* Debug */,
+				CCDDF016269055EE009E08FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CCDDEFEA269055EA009E08FF /* InstargramClone.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CCDDEFEB269055EA009E08FF /* InstargramClone.xcdatamodel */,
+			);
+			currentVersion = CCDDEFEB269055EA009E08FF /* InstargramClone.xcdatamodel */;
+			path = InstargramClone.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CCDDEFD9269055EA009E08FF /* Project object */;
+}
